@@ -18,25 +18,5 @@ namespace Tests
             var expected = input;
             Assert.AreEqual(expected, output);
         }
-        [Test]
-        public void ifSaturday_ReturnMonday()
-        {
-            
-        }
-        [Test]
-        public void ifSunday_ReturnMonday()
-        {
-            
-        }
-        [Test]
-        public void ifHoliday_ReturnNonHoliday()
-        {
-            
-        }
-        [Test]
-        public void ifHoliday_ReturnWeekday()
-        {
-            
-        }
     }
 }
