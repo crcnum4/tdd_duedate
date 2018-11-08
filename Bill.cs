@@ -4,16 +4,11 @@ namespace PaymentDateCheck
 {
     public class Bill
     {
-        private readonly IHolidayService _holidayservice;
-
-        public Bill(IHolidayService service)
+        //bring in holiday service to check for holidays
+        //use dependency injection
+        public DateTime CheckDate (DateTime dueDate)
         {
-            _holidayservice = service;
-        }
-
-        public Double PayBill(Double paymentDue)
-        {
-            return paymentDue;
+            throw new NotImplementedException();
         }
     }
 
